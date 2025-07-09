@@ -12,28 +12,28 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Specify where to get the following credentials
-OWNER_USERNAME = getenv("OWNER_USERNAME", "@MR_AATMA2")
-BOT_USERNAME = getenv("BOT_USERNAME", "@MusicXpressBot")
-BOT_NAME = getenv("BOT_NAME", "𝐈ɴɴᴏᴄᴇɴ† 𝐌ᴜsɪᴄ")
-ASSUSERNAME = getenv("ASSUSERNAME", "II_QUEEN_Il")
-EVALOP = list(map(int, getenv("EVALOP", "7965193336").split()))
+OWNER_USERNAME = getenv("OWNER_USERNAME", "@Romentic_lover")
+BOT_USERNAME = getenv("BOT_USERNAME", "@Music_jullet_bot")
+BOT_NAME = getenv("BOT_NAME", "None")
+ASSUSERNAME = getenv("ASSUSERNAME", "None")
+EVALOP = list(map(int, getenv("EVALOP", "7466643799").split()))
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOGGER_ID = int(getenv("LOGGER_ID", -1002728742161))
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 # External APIs - Get these from their respective providers
 GPT_API = getenv("GPT_API")
 DEEP_API = getenv("DEEP_API")
-OWNER_ID = int(getenv("OWNER_ID", 7965193336))
+OWNER_ID = int(getenv("OWNER_ID", 7466643799)
 
 # Heroku deployment settings - Refer to Heroku documentation on how to obtain these
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/MR-aatma/inno")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://t.me/Romentic_lover")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Support and contact information - Provide your own support channels
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ruthlesszone")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/romeo_raja_007")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Dosti_Ki_Duniya_hindi_Chat_Group")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
